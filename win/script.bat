@@ -98,4 +98,4 @@ TIMEOUT 4
 taskkill /F /IM Maxthon.exe /T
 TIMEOUT 3
 taskkill /F /IM vivaldi.exe /T
-TIMEOUT 1
+
