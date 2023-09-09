@@ -1,0 +1,3 @@
+future>=0.18.3
+PyYAML>=6.0.1
+tkintertable>=1.3.3

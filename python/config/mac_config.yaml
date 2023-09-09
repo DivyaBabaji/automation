@@ -1,0 +1,10 @@
+browsers:
+
+  - name: 'Chrome'
+    path: '/Applications/Google Chrome.app'
+
+  - name: 'Brave'
+    path: '/Applications/Brave Browser.app'
+
+  - name: 'Firefox'
+    path: '/Applications/Test.app'
