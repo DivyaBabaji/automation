@@ -2,9 +2,18 @@ browsers:
 
   - name: 'Chrome'
     path: '/Applications/Google Chrome.app'
+    delay: 8
 
   - name: 'Brave'
     path: '/Applications/Brave Browser.app'
+    delay: 8
 
   - name: 'Firefox'
-    path: '/Applications/Test.app'
+    path: '/Applications/Firefox.app'
+    delay: 8
+
+defaults:
+  watch_time: 8
+  yt_urls:
+    - ''
+    - ''

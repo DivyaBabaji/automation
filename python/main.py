@@ -3,7 +3,7 @@ import yaml
 import os
 import sys
 import time
-
+from mac_manager import MacManager
 from subprocess_manager import SubProcessManager
 
 class YtRun:
@@ -15,7 +15,7 @@ class YtRun:
         return self
     
     def __exit__(self, exc_type, exc_value, traceback):
-        print("Exiting the context")
+        pass
         
     def run(self):
         if sys.platform.startswith('win'):
@@ -28,15 +28,8 @@ class YtRun:
         
     
     def run_mac(self):
-        yt_url = 'https://www.youtube.com/watch?v=LkdolmVmyLE&ab_channel=CreativeSauce'
-        with open('config/mac_config.yaml', 'r') as file:
-            browsers = yaml.safe_load(file).get('browsers')
-            print(browsers)
-            for browser in browsers:
-                browser_path = browser.get('path')
-                if os.path.exists(browser_path):
-                    with SubProcessManager() as sp:
-                        sp.execute(browser, yt_url)
+        with MacManager() as mm:
+            mm.run()
 
     def run_win(self):
         print('TODO - Implemention')

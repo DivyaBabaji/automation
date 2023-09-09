@@ -10,24 +10,22 @@ class SubProcessManager:
         return self
     
     def __exit__(self, exc_type, exc_value, traceback):
-        print("Exiting the context")
+        pass
     
-    def execute(self, browser, yt_url):
-        self._execute(browser, yt_url)
+    def execute(self, command):
+        self._execute(command)
     
-    def run(self, browser, yt_url):
+    def run(self, command):
         try:
-            browser_path = browser.get('path')
-            subprocess.run(["open", "-a", browser_path, yt_url], check=True)
+            print('Executing command -- ' + " ".join(command))
+            subprocess.run(command, check=True)
         except subprocess.CalledProcessError as e:
             print(f"Error running the executable: {e}")
         except FileNotFoundError as e:
             print(f"Executable not found: {e}")
     
-    def _execute(self, browser, yt_url):
-
-        exe_thread = threading.Thread(target=self.run, args=(browser, yt_url))
+    def _execute(self, command):
+        command_arg = [command]
+        exe_thread = threading.Thread(target=self.run, args=(command_arg))
         exe_thread.start()
         exe_thread.join()
-
-        print("Main thread continues executing...")
