@@ -1,20 +1,10 @@
 @echo off
 setlocal enabledelayedexpansion
-
-REM Define the number of iterations
 set "iterations=1"
-
-REM Define the log file
 set "logFile=Skylogfile.txt"
-
-REM Clear or create the log file
 echo. > "%logFile%"
-
-REM Start the loop
 for /l %%i in (1, 1, %iterations%) do (
     echo Iteration %%i - Date and Time: !date! !time! >> "%logFile%"
-    
-    REM Add your set of commands here
     echo watching video 1 in Iteration %%i
     start chrome "https://www.youtube.com/watch?v=LqVwW1VnHf8"
     if !errorlevel! equ 0 (
@@ -70,14 +60,12 @@ TIMEOUT 4
 taskkill /F /IM Maxthon.exe /T
 TIMEOUT 3
 taskkill /F /IM vivaldi.exe /T
-    
-    
-	
+    	
     
 echo Total Attempted views - 20    please count the FAILURE :s and subsctract from 'views attempted' while updating the status in tracker  >> "%logFile%"
 )
 
 
-REM Display a message when the process is complete
 echo All iterations completed. Check "%logFile%" for details.
+pause
 
