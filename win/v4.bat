@@ -62,7 +62,7 @@ TIMEOUT 3
 taskkill /F /IM vivaldi.exe /T
     	
     
-echo Total Attempted views - 20    please count the FAILURE :s and subsctract from 'views attempted' while updating the status in tracker  >> "%logFile%"
+echo Total Attempted views - 5    please count the FAILURE :s and subsctract from 'views attempted' while updating the status in tracker  >> "%logFile%"
 )
 
 
