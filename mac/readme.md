@@ -106,6 +106,6 @@ Please be aware that browser settings and YouTube's autoplay policies may change
 Additionally, YouTube's autoplay settings may also be influenced by the type of content you're watching and your viewing history, as YouTube's recommendation algorithm plays a role in determining which videos autoplay.
 
 # Step 4
-Do this step only after successfully installing browsers and After enabling autoplay in all the browsers.
+Do this step only after successfully installing browsers and enabling autoplay in all the browsers.
 Run the script to open the browsers
 `./script.sh`
