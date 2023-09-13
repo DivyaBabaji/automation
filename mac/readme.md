@@ -10,4 +10,4 @@ Run the script to install the browsers:
 Please wait, Instructions will be updated.
 Do this step only after successfully installing browsers
 Run the script to open the browsers
-`./install_browsers.sh`
+`./script.sh`
