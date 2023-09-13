@@ -8,6 +8,7 @@ fi
 
 # Install browsers
 brew install --cask google-chrome
+brew install --cask Chromium
 brew install --cask firefox
-brew install --cask opera
+brew install --cask seamonkey
 brew install --cask microsoft-edge

@@ -1,83 +1,83 @@
 #! /bin/bash
-open -a opera  https://youtu.be/awi0dmbjn8Y
+open -a seamonkey  https://youtu.be/awi0dmbjn8Y?autoplay=1
 sleep 8
-open -a firefox https://youtu.be/AExtCCJcGDM?autoplay=1
+open -a Firefox https://youtu.be/AExtCCJcGDM?autoplay=1
 sleep 8
-open -a safari https://youtu.be/CGKCRd-QGNQ
+open -a Safari https://youtu.be/CGKCRd-QGNQ
 sleep 8
 open -a Microsoft\ Edge.app  https://youtu.be/waH7d5jIRlM
 sleep 8
-open -a chrome https://youtu.be/Jkt1Pd2sjpw
+open -a Chromium https://youtu.be/Jkt1Pd2sjpw?autoplay=1
 sleep 300
-pkill -x opera
+pkill -x seamonkey
 sleep 8
-pkill -x firefox
+pkill -x Firefox
 sleep 1
-pkill -x safari
+pkill -x Safari
 sleep 4
 pkill -x Microsoft\ Edge
 sleep 3
-pkill -x chrome
+pkill -x Chromium
 sleep 1
 #iteration 2
-open -a opera  https://youtu.be/awi0dmbjn8Y
+open -a seamonkey  https://youtu.be/awi0dmbjn8Y?autoplay=1
 sleep 8
-open -a chrome https://youtu.be/AExtCCJcGDM
+open -a Chromium https://youtu.be/AExtCCJcGDM?autoplay=1
 sleep 21
 open -a Microsoft\ Edge.app https://youtu.be/CGKCRd-QGNQ
 sleep 8
-open -a firefox  https://youtu.be/waH7d5jIRlM?autoplay=1
+open -a Firefox  https://youtu.be/waH7d5jIRlM?autoplay=1
 sleep 8
-open -a safari https://youtu.be/Jkt1Pd2sjpw
+open -a Safari https://youtu.be/Jkt1Pd2sjpw
 sleep 242
-pkill -x opera
+pkill -x seamonkey
 sleep 4
-pkill -x chrome
+pkill -x Chromium
 sleep 1
 pkill -x Microsoft\ Edge
 sleep 7
-pkill -x firefox
+pkill -x Firefox
 sleep 3
-pkill -x safari
+pkill -x Safari
 sleep 2
 #iteration 3
-open -a firefox  https://youtu.be/awi0dmbjn8Y?autoplay=1
+open -a Firefox  https://youtu.be/awi0dmbjn8Y?autoplay=1
 sleep 8
-open -a safari https://youtu.be/AExtCCJcGDM
+open -a Safari https://youtu.be/AExtCCJcGDM
 sleep 8
-open -a opera https://youtu.be/CGKCRd-QGNQ
+open -a seamonkey https://youtu.be/CGKCRd-QGNQ?autoplay=1
 sleep 8
-open -a chrome  https://youtu.be/waH7d5jIRlM
+open -a Chromium  https://youtu.be/waH7d5jIRlM?autoplay=1
 sleep 8
 open -a Microsoft\ Edge.app https://youtu.be/Jkt1Pd2sjpw
 sleep 300
-pkill -x firefox
+pkill -x Firefox
 sleep 8
-pkill -x safari
+pkill -x Safari
 sleep 1
-pkill -x opera
+pkill -x seamonkey
 sleep 4
-pkill -x chrome
+pkill -x Chromium
 sleep 3
 pkill -x Microsoft\ Edge
 sleep 1
 #iteration 4
-open -a firefox  https://youtu.be/awi0dmbjn8Y?autoplay=1
+open -a Firefox  https://youtu.be/awi0dmbjn8Y?autoplay=1
 sleep 8
 open -a Microsoft\ Edge.app https://youtu.be/AExtCCJcGDM
 sleep 8
-open -a chrome https://youtu.be/CGKCRd-QGNQ
+open -a Chromium https://youtu.be/CGKCRd-QGNQ?autoplay=1
 sleep 8
-open -a safari  https://youtu.be/waH7d5jIRlM
+open -a Safari  https://youtu.be/waH7d5jIRlM
 sleep 8
-open -a opera https://youtu.be/Jkt1Pd2sjpw
+open -a seamonkey https://youtu.be/Jkt1Pd2sjpw?autoplay=1
 sleep 300
-pkill -x firefox
+pkill -x Firefox
 sleep 8
 pkill -x Microsoft\ Edge
 sleep 1
-pkill -x chrome
+pkill -x Chromium
 sleep 4
-pkill -x safari
+pkill -x Safari
 sleep 3
-pkill -x opera
+pkill -x seamonkey
