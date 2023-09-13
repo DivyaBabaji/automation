@@ -1,7 +1,7 @@
 #! /bin/bash
 open -a opera  https://youtu.be/awi0dmbjn8Y
 sleep 8
-open -a firefox https://youtu.be/AExtCCJcGDM
+open -a firefox https://youtu.be/AExtCCJcGDM?autoplay=1
 sleep 8
 open -a safari https://youtu.be/CGKCRd-QGNQ
 sleep 8
@@ -26,7 +26,7 @@ open -a chrome https://youtu.be/AExtCCJcGDM
 sleep 21
 open -a Microsoft\ Edge.app https://youtu.be/CGKCRd-QGNQ
 sleep 8
-open -a firefox  https://youtu.be/waH7d5jIRlM
+open -a firefox  https://youtu.be/waH7d5jIRlM?autoplay=1
 sleep 8
 open -a safari https://youtu.be/Jkt1Pd2sjpw
 sleep 242
@@ -41,7 +41,7 @@ sleep 3
 pkill -x safari
 sleep 2
 #iteration 3
-open -a firefox  https://youtu.be/awi0dmbjn8Y
+open -a firefox  https://youtu.be/awi0dmbjn8Y?autoplay=1
 sleep 8
 open -a safari https://youtu.be/AExtCCJcGDM
 sleep 8
@@ -62,7 +62,7 @@ sleep 3
 pkill -x Microsoft\ Edge
 sleep 1
 #iteration 4
-open -a firefox  https://youtu.be/awi0dmbjn8Y
+open -a firefox  https://youtu.be/awi0dmbjn8Y?autoplay=1
 sleep 8
 open -a Microsoft\ Edge.app https://youtu.be/AExtCCJcGDM
 sleep 8
