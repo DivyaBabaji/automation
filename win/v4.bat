@@ -59,7 +59,7 @@ taskkill /F /IM firefox.exe /T
 TIMEOUT 4
 taskkill /F /IM Maxthon.exe /T
 TIMEOUT 3
-taskkill /F /IM vivaldi.exe /T
+taskkill /F /IM opera.exe /T
     	
     
 echo Total Attempted views - 5    please count the FAILURE :s and subsctract from 'views attempted' while updating the status in tracker  >> "%logFile%"
