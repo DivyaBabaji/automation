@@ -26,7 +26,7 @@ for ((i=0; i<${#browsers[@]}; i++)); do
 done
 
 # Sleep for 30 seconds to keep browsers open
-sleep 30
+sleep 242
 
 # Close the browsers after 30 seconds
 for browser in "${browsers[@]}"; do
