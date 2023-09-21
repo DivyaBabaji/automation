@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define an array of browsers and URLs
-browsers=("seamonkey" "Firefox" "safari", "Microsoft\ Edge", "Chromium")
+browsers=("seamonkey" "Firefox" "Safari" "Microsoft Edge" "Chromium")
 urls=(
     "https://youtu.be/awi0dmbjn8Y?autoplay=1"
     "https://youtu.be/AExtCCJcGDM?autoplay=1"
