@@ -8,45 +8,45 @@ for ((i = 1; i <= iterations; i++)); do
     echo "Iteration $i - Date and Time: $(date)" >> "$logFile"
     
     echo "Watching video 1 in Iteration $i"
-    open -a "seamonkey" "https://www.youtube.com/watch?v=LqVwW1VnHf8"
+    open -a "seamonkey" "https://youtu.be/Xrl77Bh8ijY"
     if [ $? -eq 0 ]; then
-        echo "1 view for video_1 in Iteration $i created successfully" >> "$logFile"
+        echo "1 view for Xrl77Bh8ijY in Iteration $i created successfully" >> "$logFile"
     else
-        echo "FAILURE : video_1 in Iteration $i" >> "$logFile"
+        echo "FAILURE : Xrl77Bh8ijY in Iteration $i" >> "$logFile"
     fi
 
     sleep 6
 
     echo "Watching video 2 in Iteration $i"
-    open -a "Firefox" "https://www.youtube.com/watch?v=LqVwW1VnHf8"
+    open -a "Firefox" "https://youtu.be/FiXVasTR4pA"
     if [ $? -eq 0 ]; then
-        echo "1 view for video_2 in Iteration $i created successfully" >> "$logFile"
+        echo "1 view for FiXVasTR4pA in Iteration $i created successfully" >> "$logFile"
     else
         echo "FAILURE : video_2 in Iteration $i failed to execute" >> "$logFile"
     fi
 
     echo "Watching video 3 in Iteration $i"
-    open -a "Safari" "https://www.youtube.com/watch?v=LqVwW1VnHf8"
+    open -a "Safari" "https://youtu.be/Ugsv1PBmQF"
     if [ $? -eq 0 ]; then
-        echo "1 view for video_3 in Iteration $i created successfully" >> "$logFile"
+        echo "1 view for Ugsv1PBmQF in Iteration $i created successfully" >> "$logFile"
     else
-        echo "FAILURE : video_3 in Iteration $i failed to execute" >> "$logFile"
+        echo "FAILURE : Ugsv1PBmQF in Iteration $i failed to execute" >> "$logFile"
     fi
 
     echo "Watching video 4 in Iteration $i"
-    open -a "Microsoft Edge" "https://www.youtube.com/watch?v=LqVwW1VnHf8"
+    open -a "Microsoft Edge" "https://youtu.be/7Reg6oUL5Oc"
     if [ $? -eq 0 ]; then
-        echo "1 view for video_4 in Iteration $i created successfully" >> "$logFile"
+        echo "1 view for 7Reg6oUL5Oc in Iteration $i created successfully" >> "$logFile"
     else
-        echo "FAILURE : video_4 in Iteration $i failed to execute" >> "$logFile"
+        echo "FAILURE : 7Reg6oUL5Oc in Iteration $i failed to execute" >> "$logFile"
     fi
 
     echo "Watching video 5 in Iteration $i"
-    open -a "Chromium" "https://www.youtube.com/watch?v=LqVwW1VnHf8"
+    open -a "Chromium" "https://youtu.be/_VtvDf4ssvA"
     if [ $? -eq 0 ]; then
-        echo "1 view for video_5 in Iteration $i created successfully" >> "$logFile"
+        echo "1 view for _VtvDf4ssvA in Iteration $i created successfully" >> "$logFile"
     else
-        echo "FAILURE : video_5 in Iteration $i failed to execute" >> "$logFile"
+        echo "FAILURE : _VtvDf4ssvA in Iteration $i failed to execute" >> "$logFile"
     fi
 
     sleep 10
