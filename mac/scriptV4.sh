@@ -49,7 +49,7 @@ for ((i = 1; i <= iterations; i++)); do
         echo "FAILURE : _VtvDf4ssvA in Iteration $i failed to execute" >> "$logFile"
     fi
 
-    sleep 10
+    sleep 282
 
     pkill -f "seamonkey"
     sleep 8
