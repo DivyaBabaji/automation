@@ -111,3 +111,5 @@ Additionally, YouTube's autoplay settings may also be influenced by the type of 
 Do this step only after successfully installing browsers.
 Run the script to open the browsers
 `./scriptV4.sh`
+
+After Executing the Script, Monitor the console and finally at the end of iteration script will generate Skylogfile.txt log file.
