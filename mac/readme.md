@@ -108,4 +108,4 @@ Additionally, YouTube's autoplay settings may also be influenced by the type of 
 # Step 4
 Do this step only after successfully installing browsers and enabling autoplay in all the browsers.
 Run the script to open the browsers
-`./script.sh`
+`./scriptV4.sh`
