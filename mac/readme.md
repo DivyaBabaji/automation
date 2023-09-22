@@ -7,7 +7,8 @@ Run the script to install the browsers:
 `./install_browsers.sh`
 
 # Step 3
-Perform this step, only if you want to enable autoplay, if any of the brwoser is not autoplaying the file.
+Perform this step only if you want to enable autoplay, if any of the browser is not autoplaying the Youtube Video.
+
 If you want to enable autoplay on YouTube for all browsers in macOS, you can follow these steps. Please note that these instructions were last updated in September 2021, and browser settings may evolve over time.
 
 ## YouTube Settings
