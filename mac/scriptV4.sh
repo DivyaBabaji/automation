@@ -6,7 +6,7 @@ echo -n "" > "$logFile"
 
 for ((i = 1; i <= iterations; i++)); do
     echo "Iteration $i - Date and Time: $(date)" >> "$logFile"
-    
+
     echo "Watching video 1 in Iteration $i"
     open -a "seamonkey" "https://youtu.be/Xrl77Bh8ijY"
     if [ $? -eq 0 ]; then
