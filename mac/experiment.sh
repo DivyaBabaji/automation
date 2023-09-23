@@ -5,16 +5,16 @@ URL_2 = "https://youtu.be/Xrl77Bh8ijY"
 URL_3 = "https://youtu.be/7Reg6oUL5Oc"
 URL_4 = "https://youtu.be/3xnfnd6BfcI"
 URL_5 = "https://youtu.be/_VtvDf4ssvA"
-TEMP_1 = ""
-TEMP_2 = ""
-TEMP_3 = ""
-TEMP_4 = ""
-TEMP_5 = ""
-SEO_1 = ""
-SEO_2 = ""
-SEO_3 = ""
-SEO_4 = ""
-SEO_5 = ""
+TEMP_1 = "https://youtu.be/oJD6H-ujnl0"
+TEMP_2 = "https://youtu.be/yEYfnp_igKc"
+TEMP_3 = "https://youtu.be/Isrl6pPj6Mk"
+TEMP_4 = "https://youtu.be/nIGNjkWDD2s"
+TEMP_5 = "https://youtu.be/FDevWql4TzU"
+SEO_1 = "https://www.youtube.com/results?search_query=sushumna+kriya"
+SEO_2 = "https://www.youtube.com/results?search_query=inner+miracles+sushumna"
+SEO_3 = "https://www.youtube.com/results?search_query=sushumna+kriya+yoga+in+mumbai"
+SEO_4 = "https://www.youtube.com/results?search_query=Aathmanandamayi"
+SEO_5 = "https://www.youtube.com/results?search_query=mahavatar+babaji+bhogar+aathmanadamayi"
 
 function loop1 {
     iterations=1
@@ -589,11 +589,11 @@ while true; do
     echo "3. Loop 3"
     echo "4. Loop 4"
     echo "5. Loop 5"
-    echo "6. Loop 6"
-    echo "7. Loop 7"
-    echo "8. Loop 8"
-    echo "9. Loop 9"
-    echo "10. Loop 10"
+    #echo "6. Loop 6"
+    #echo "7. Loop 7"
+    #echo "8. Loop 8"
+    #echo "9. Loop 9"
+    #echo "10. Loop 10"
     read -p "Enter your choice: " choice
 
     case $choice in
@@ -632,7 +632,8 @@ while true; do
             loop10
             ;;
         *)
-            echo "Invalid choice. Please enter 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 or 10."
+            echo "Invalid choice. Please enter 0, 1, 2, 3, 4, 5"
+            #, 6, 7, 8, 9 or 10.
             ;;
     esac
 
