@@ -8,7 +8,7 @@ for ((i = 1; i <= iterations; i++)); do
     echo "Iteration $i - Date and Time: $(date)" >> "$logFile"
 
     echo "Watching video 1 in Iteration $i"
-    open -a "seamonkey" "https://youtu.be/Xrl77Bh8ijY"
+    open -a "seamonkey" "https://youtu.be/Xrl77Bh8ijY?autoplay=1"
     if [ $? -eq 0 ]; then
         echo "1 view for Xrl77Bh8ijY in Iteration $i created successfully" >> "$logFile"
     else
@@ -18,7 +18,7 @@ for ((i = 1; i <= iterations; i++)); do
     sleep 6
 
     echo "Watching video 2 in Iteration $i"
-    open -a "Firefox" "https://youtu.be/FiXVasTR4pA"
+    open -a "Firefox" "https://youtu.be/FiXVasTR4pA?autoplay=1"
     if [ $? -eq 0 ]; then
         echo "1 view for FiXVasTR4pA in Iteration $i created successfully" >> "$logFile"
     else
@@ -26,7 +26,7 @@ for ((i = 1; i <= iterations; i++)); do
     fi
 
     echo "Watching video 3 in Iteration $i"
-    open -a "Safari" "https://youtu.be/Ugsv1PBmQF"
+    open -a "Safari" "https://youtu.be/Ugsv1PBmQF?autoplay=1"
     if [ $? -eq 0 ]; then
         echo "1 view for Ugsv1PBmQF in Iteration $i created successfully" >> "$logFile"
     else
@@ -34,7 +34,7 @@ for ((i = 1; i <= iterations; i++)); do
     fi
 
     echo "Watching video 4 in Iteration $i"
-    open -a "Microsoft Edge" "https://youtu.be/7Reg6oUL5Oc"
+    open -a "Microsoft Edge" "https://youtu.be/7Reg6oUL5Oc?autoplay=1"
     if [ $? -eq 0 ]; then
         echo "1 view for 7Reg6oUL5Oc in Iteration $i created successfully" >> "$logFile"
     else
@@ -42,7 +42,7 @@ for ((i = 1; i <= iterations; i++)); do
     fi
 
     echo "Watching video 5 in Iteration $i"
-    open -a "Chromium" "https://youtu.be/_VtvDf4ssvA"
+    open -a "Chromium" "https://youtu.be/_VtvDf4ssvA?autoplay=1"
     if [ $? -eq 0 ]; then
         echo "1 view for _VtvDf4ssvA in Iteration $i created successfully" >> "$logFile"
     else
