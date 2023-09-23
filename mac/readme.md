@@ -116,5 +116,14 @@ Do this step only after successfully installing browsers.
 Run the script to open the browsers
 `./experiment.sh`
 
-After Executing the Script, Monitor the console and finally at the end of iteration script will generate Skylogfile.txt log file.
+After Executing the Script,
+
+## Note Please select loop choice as per assignment:
+1. Jeevan - loop 1
+2. Mohith - loop 2
+3. Tejesh - loop 3
+4. Ramana - loop 4
+5. Vinod - loop 5
+
+Monitor the console and finally at the end of iteration script will generate Skylogfile.txt log file.
 Proceed to Tracker to update your views as per Skylogfile.txt
