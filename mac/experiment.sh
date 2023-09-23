@@ -27,9 +27,9 @@ function loop1 {
         open -a "Seamonkey" "$URL_1"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_1 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_25 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_1 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_25 Iteration $i" >> "$logFile"
         fi
 
         sleep 20
@@ -60,9 +60,9 @@ function loop1 {
         open -a "Firefox" "$URL_2"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_2 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_26 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_2 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_26 Iteration $i" >> "$logFile"
         fi
 
         sleep 12
@@ -71,9 +71,9 @@ function loop1 {
         open -a "Safari" "$URL_3"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_3 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_28 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_3 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_28 Iteration $i" >> "$logFile"
         fi
 
         sleep 14
@@ -82,9 +82,9 @@ function loop1 {
         open -a "Microsoft Edge" "$URL_4"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_4 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_29 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_4 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_29 Iteration $i" >> "$logFile"
         fi
 
         sleep 16
@@ -93,9 +93,9 @@ function loop1 {
         open -a "Chromium" "$URL_5"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_5 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_30 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_5 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_30 Iteration $i" >> "$logFile"
         fi
 
         sleep 242
@@ -135,9 +135,9 @@ function loop2 {
         open -a "Seamonkey" "$URL_2"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_1 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_26 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_1 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_26 Iteration $i" >> "$logFile"
         fi
 
         sleep 20
@@ -168,9 +168,9 @@ function loop2 {
         open -a "Firefox" "$URL_3"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_2 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_28 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_2 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_28 Iteration $i" >> "$logFile"
         fi
 
         sleep 12
@@ -179,9 +179,9 @@ function loop2 {
         open -a "Safari" "$URL_4"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_3 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_29 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_3 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_29 Iteration $i" >> "$logFile"
         fi
 
         sleep 14
@@ -190,9 +190,9 @@ function loop2 {
         open -a "Microsoft Edge" "$URL_5"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_4 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_30 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_4 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_30 Iteration $i" >> "$logFile"
         fi
 
         sleep 16
@@ -201,9 +201,9 @@ function loop2 {
         open -a "Chromium" "$URL_1"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_5 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_25 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_5 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_25 Iteration $i" >> "$logFile"
         fi
 
         sleep 242
@@ -243,9 +243,9 @@ function loop3 {
         open -a "Seamonkey" "$URL_3"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_1 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_28 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_1 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_28 Iteration $i" >> "$logFile"
         fi
 
         sleep 20
@@ -276,9 +276,9 @@ function loop3 {
         open -a "Firefox" "$URL_4"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_2 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_29 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_2 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_29 Iteration $i" >> "$logFile"
         fi
 
         sleep 12
@@ -287,9 +287,9 @@ function loop3 {
         open -a "Safari" "$URL_5"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_3 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_30 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_3 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_30 Iteration $i" >> "$logFile"
         fi
 
         sleep 14
@@ -298,9 +298,9 @@ function loop3 {
         open -a "Microsoft Edge" "$URL_1"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_4 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_25 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_4 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_25 Iteration $i" >> "$logFile"
         fi
 
         sleep 16
@@ -309,9 +309,9 @@ function loop3 {
         open -a "Chromium" "$URL_2"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_5 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_26 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_5 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_26 Iteration $i" >> "$logFile"
         fi
 
         sleep 242
@@ -351,9 +351,9 @@ function loop4 {
         open -a "Seamonkey" "$URL_4"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_1 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_29 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_1 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_29 Iteration $i" >> "$logFile"
         fi
 
         sleep 20
@@ -384,9 +384,9 @@ function loop4 {
         open -a "Firefox" "$URL_5"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_2 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_30 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_2 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_30 Iteration $i" >> "$logFile"
         fi
 
         sleep 12
@@ -395,9 +395,9 @@ function loop4 {
         open -a "Safari" "$URL_1"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_3 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_25 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_3 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_25 Iteration $i" >> "$logFile"
         fi
 
         sleep 14
@@ -406,9 +406,9 @@ function loop4 {
         open -a "Microsoft Edge" "$URL_2"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_4 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_26 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_4 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_26 Iteration $i" >> "$logFile"
         fi
 
         sleep 16
@@ -417,9 +417,9 @@ function loop4 {
         open -a "Chromium" "$URL_3"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_5 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_28 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_5 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_28 Iteration $i" >> "$logFile"
         fi
 
         sleep 242
@@ -459,9 +459,9 @@ function loop5 {
         open -a "Seamonkey" "$URL_5"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_1 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_30 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_1 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_30 Iteration $i" >> "$logFile"
         fi
 
         sleep 20
@@ -492,9 +492,9 @@ function loop5 {
         open -a "Firefox" "$URL_1"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_2 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_25 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_2 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_25 Iteration $i" >> "$logFile"
         fi
 
         sleep 12
@@ -503,9 +503,9 @@ function loop5 {
         open -a "Safari" "$URL_2"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_3 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_26 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_3 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_26 Iteration $i" >> "$logFile"
         fi
 
         sleep 14
@@ -514,9 +514,9 @@ function loop5 {
         open -a "Microsoft Edge" "$URL_3"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_4 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_28 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_4 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_28 Iteration $i" >> "$logFile"
         fi
 
         sleep 16
@@ -525,9 +525,9 @@ function loop5 {
         open -a "Chromium" "$URL_4"
 
         if [ $? -eq 0 ]; then
-            echo "1 view for video_5 in Iteration $i created successfully" >> "$logFile"
+            echo "1 view for video_29 in Iteration $i created successfully" >> "$logFile"
         else
-            echo "FAILURE : video_5 Iteration $i" >> "$logFile"
+            echo "FAILURE : video_29 Iteration $i" >> "$logFile"
         fi
 
         sleep 242
