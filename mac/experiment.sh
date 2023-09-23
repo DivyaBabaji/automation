@@ -23,7 +23,7 @@ function loop1 {
 
     for ((i = 1; i <= $iterations; i++)); do
         echo "Iteration $i - Date and Time: $(date) $(date +%T)" >> "$logFile"
-        echo "watching video 1 in Iteration $i"
+        echo "watching video 25 in Iteration $i"
         open -a "Seamonkey" "$URL_1"
 
         if [ $? -eq 0 ]; then
@@ -56,7 +56,7 @@ function loop1 {
 
         sleep 8
 
-        echo "watching video 2 in Iteration $i"
+        echo "watching video 26 in Iteration $i"
         open -a "Firefox" "$URL_2"
 
         if [ $? -eq 0 ]; then
@@ -67,7 +67,7 @@ function loop1 {
 
         sleep 12
 
-        echo "watching video 3 in Iteration $i"
+        echo "watching video 28 in Iteration $i"
         open -a "Safari" "$URL_3"
 
         if [ $? -eq 0 ]; then
@@ -78,7 +78,7 @@ function loop1 {
 
         sleep 14
 
-        echo "watching video 4 in Iteration $i"
+        echo "watching video 29 in Iteration $i"
         open -a "Microsoft Edge" "$URL_4"
 
         if [ $? -eq 0 ]; then
@@ -89,7 +89,7 @@ function loop1 {
 
         sleep 16
 
-        echo "watching video 5 in Iteration $i"
+        echo "watching video 30 in Iteration $i"
         open -a "Chromium" "$URL_5"
 
         if [ $? -eq 0 ]; then
@@ -131,7 +131,7 @@ function loop2 {
 
     for ((i = 1; i <= $iterations; i++)); do
         echo "Iteration $i - Date and Time: $(date) $(date +%T)" >> "$logFile"
-        echo "watching video 1 in Iteration $i"
+        echo "watching video 26 in Iteration $i"
         open -a "Seamonkey" "$URL_2"
 
         if [ $? -eq 0 ]; then
@@ -164,7 +164,7 @@ function loop2 {
 
         sleep 8
 
-        echo "watching video 2 in Iteration $i"
+        echo "watching video 28 in Iteration $i"
         open -a "Firefox" "$URL_3"
 
         if [ $? -eq 0 ]; then
@@ -175,7 +175,7 @@ function loop2 {
 
         sleep 12
 
-        echo "watching video 3 in Iteration $i"
+        echo "watching video 29 in Iteration $i"
         open -a "Safari" "$URL_4"
 
         if [ $? -eq 0 ]; then
@@ -186,7 +186,7 @@ function loop2 {
 
         sleep 14
 
-        echo "watching video 4 in Iteration $i"
+        echo "watching video 30 in Iteration $i"
         open -a "Microsoft Edge" "$URL_5"
 
         if [ $? -eq 0 ]; then
@@ -197,7 +197,7 @@ function loop2 {
 
         sleep 16
 
-        echo "watching video 5 in Iteration $i"
+        echo "watching video 25 in Iteration $i"
         open -a "Chromium" "$URL_1"
 
         if [ $? -eq 0 ]; then
@@ -239,7 +239,7 @@ function loop3 {
 
     for ((i = 1; i <= $iterations; i++)); do
         echo "Iteration $i - Date and Time: $(date) $(date +%T)" >> "$logFile"
-        echo "watching video 1 in Iteration $i"
+        echo "watching video 28 in Iteration $i"
         open -a "Seamonkey" "$URL_3"
 
         if [ $? -eq 0 ]; then
@@ -272,7 +272,7 @@ function loop3 {
 
         sleep 8
 
-        echo "watching video 2 in Iteration $i"
+        echo "watching video 29 in Iteration $i"
         open -a "Firefox" "$URL_4"
 
         if [ $? -eq 0 ]; then
@@ -283,7 +283,7 @@ function loop3 {
 
         sleep 12
 
-        echo "watching video 3 in Iteration $i"
+        echo "watching video 30 in Iteration $i"
         open -a "Safari" "$URL_5"
 
         if [ $? -eq 0 ]; then
@@ -294,7 +294,7 @@ function loop3 {
 
         sleep 14
 
-        echo "watching video 4 in Iteration $i"
+        echo "watching video 25 in Iteration $i"
         open -a "Microsoft Edge" "$URL_1"
 
         if [ $? -eq 0 ]; then
@@ -305,7 +305,7 @@ function loop3 {
 
         sleep 16
 
-        echo "watching video 5 in Iteration $i"
+        echo "watching video 26 in Iteration $i"
         open -a "Chromium" "$URL_2"
 
         if [ $? -eq 0 ]; then
@@ -347,7 +347,7 @@ function loop4 {
 
     for ((i = 1; i <= $iterations; i++)); do
         echo "Iteration $i - Date and Time: $(date) $(date +%T)" >> "$logFile"
-        echo "watching video 1 in Iteration $i"
+        echo "watching video 29 in Iteration $i"
         open -a "Seamonkey" "$URL_4"
 
         if [ $? -eq 0 ]; then
@@ -380,7 +380,7 @@ function loop4 {
 
         sleep 8
 
-        echo "watching video 2 in Iteration $i"
+        echo "watching video 30 in Iteration $i"
         open -a "Firefox" "$URL_5"
 
         if [ $? -eq 0 ]; then
@@ -391,7 +391,7 @@ function loop4 {
 
         sleep 12
 
-        echo "watching video 3 in Iteration $i"
+        echo "watching video 25 in Iteration $i"
         open -a "Safari" "$URL_1"
 
         if [ $? -eq 0 ]; then
@@ -402,7 +402,7 @@ function loop4 {
 
         sleep 14
 
-        echo "watching video 4 in Iteration $i"
+        echo "watching video 26 in Iteration $i"
         open -a "Microsoft Edge" "$URL_2"
 
         if [ $? -eq 0 ]; then
@@ -413,7 +413,7 @@ function loop4 {
 
         sleep 16
 
-        echo "watching video 5 in Iteration $i"
+        echo "watching video 28 in Iteration $i"
         open -a "Chromium" "$URL_3"
 
         if [ $? -eq 0 ]; then
@@ -455,7 +455,7 @@ function loop5 {
 
     for ((i = 1; i <= $iterations; i++)); do
         echo "Iteration $i - Date and Time: $(date) $(date +%T)" >> "$logFile"
-        echo "watching video 1 in Iteration $i"
+        echo "watching video 30 in Iteration $i"
         open -a "Seamonkey" "$URL_5"
 
         if [ $? -eq 0 ]; then
@@ -488,7 +488,7 @@ function loop5 {
 
         sleep 8
 
-        echo "watching video 2 in Iteration $i"
+        echo "watching video 25 in Iteration $i"
         open -a "Firefox" "$URL_1"
 
         if [ $? -eq 0 ]; then
@@ -499,7 +499,7 @@ function loop5 {
 
         sleep 12
 
-        echo "watching video 3 in Iteration $i"
+        echo "watching video 26 in Iteration $i"
         open -a "Safari" "$URL_2"
 
         if [ $? -eq 0 ]; then
@@ -510,7 +510,7 @@ function loop5 {
 
         sleep 14
 
-        echo "watching video 4 in Iteration $i"
+        echo "watching video 28 in Iteration $i"
         open -a "Microsoft Edge" "$URL_3"
 
         if [ $? -eq 0 ]; then
@@ -521,7 +521,7 @@ function loop5 {
 
         sleep 16
 
-        echo "watching video 5 in Iteration $i"
+        echo "watching video 29 in Iteration $i"
         open -a "Chromium" "$URL_4"
 
         if [ $? -eq 0 ]; then
