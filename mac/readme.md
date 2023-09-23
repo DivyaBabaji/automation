@@ -119,10 +119,10 @@ Run the script to open the browsers
 After Executing the Script,
 
 ## Note: Please select loop choice as per assignment:
-1. Jeevan - loop 1
-2. Mohith - loop 2
-3. Tejesh - loop 3
-4. Ramana - loop 4
+1. Mohith - loop 1
+2. Tejesh - loop 2
+3. Ramana - loop 3
+4. Jeevan - loop 4
 5. Vinod - loop 5
 
 Monitor the console and finally at the end of iteration script will generate Skylogfile.txt log file.
