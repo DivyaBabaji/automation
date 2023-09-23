@@ -108,8 +108,12 @@ Please be aware that browser settings and YouTube's autoplay policies may change
 Additionally, YouTube's autoplay settings may also be influenced by the type of content you're watching and your viewing history, as YouTube's recommendation algorithm plays a role in determining which videos autoplay.
 
 # Step 4
+Make the script executable, execute the below command
+`chmod +x experiment.sh`
+
+# Step 5
 Do this step only after successfully installing browsers.
 Run the script to open the browsers
-`./scriptV4.sh`
+`./experiment.sh`
 
 After Executing the Script, Monitor the console and finally at the end of iteration script will generate Skylogfile.txt log file.
