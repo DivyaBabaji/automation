@@ -1,20 +1,20 @@
 #!/bin/bash
 
-URL_1 = "https://youtu.be/FiXVasTR4pA"
-URL_2 = "https://youtu.be/Xrl77Bh8ijY"
-URL_3 = "https://youtu.be/7Reg6oUL5Oc"
-URL_4 = "https://youtu.be/3xnfnd6BfcI"
-URL_5 = "https://youtu.be/_VtvDf4ssvA"
-TEMP_1 = "https://youtu.be/oJD6H-ujnl0"
-TEMP_2 = "https://youtu.be/yEYfnp_igKc"
-TEMP_3 = "https://youtu.be/Isrl6pPj6Mk"
-TEMP_4 = "https://youtu.be/nIGNjkWDD2s"
-TEMP_5 = "https://youtu.be/FDevWql4TzU"
-SEO_1 = "https://www.youtube.com/results?search_query=sushumna+kriya"
-SEO_2 = "https://www.youtube.com/results?search_query=inner+miracles+sushumna"
-SEO_3 = "https://www.youtube.com/results?search_query=sushumna+kriya+yoga+in+mumbai"
-SEO_4 = "https://www.youtube.com/results?search_query=Aathmanandamayi"
-SEO_5 = "https://www.youtube.com/results?search_query=mahavatar+babaji+bhogar+aathmanadamayi"
+URL_1="https://youtu.be/FiXVasTR4pA"
+URL_2="https://youtu.be/Xrl77Bh8ijY"
+URL_3="https://youtu.be/7Reg6oUL5Oc"
+URL_4="https://youtu.be/3xnfnd6BfcI"
+URL_5="https://youtu.be/_VtvDf4ssvA"
+TEMP_1="https://youtu.be/oJD6H-ujnl0"
+TEMP_2="https://youtu.be/yEYfnp_igKc"
+TEMP_3="https://youtu.be/Isrl6pPj6Mk"
+TEMP_4="https://youtu.be/nIGNjkWDD2s"
+TEMP_5="https://youtu.be/FDevWql4TzU"
+SEO_1="https://www.youtube.com/results?search_query=sushumna+kriya"
+SEO_2="https://www.youtube.com/results?search_query=inner+miracles+sushumna"
+SEO_3="https://www.youtube.com/results?search_query=sushumna+kriya+yoga+in+mumbai"
+SEO_4="https://www.youtube.com/results?search_query=Aathmanandamayi"
+SEO_5="https://www.youtube.com/results?search_query=mahavatar+babaji+bhogar+aathmanadamayi"
 
 function loop1 {
     iterations=1
@@ -24,7 +24,7 @@ function loop1 {
     for ((i = 1; i <= $iterations; i++)); do
         echo "Iteration $i - Date and Time: $(date) $(date +%T)" >> "$logFile"
         echo "watching video 1 in Iteration $i"
-        open -a "seamonkey" "$URL_1"
+        open -a "Seamonkey" "$URL_1"
 
         if [ $? -eq 0 ]; then
             echo "1 view for video_1 in Iteration $i created successfully" >> "$logFile"
@@ -98,9 +98,9 @@ function loop1 {
             echo "FAILURE : video_5 Iteration $i" >> "$logFile"
         fi
 
-        sleep 300
+        sleep 242
 
-        pkill -f "seamonkey"
+        pkill -f "Seamonkey"
         sleep 10
 
         pkill -f "Google Chrome"
@@ -132,7 +132,7 @@ function loop2 {
     for ((i = 1; i <= $iterations; i++)); do
         echo "Iteration $i - Date and Time: $(date) $(date +%T)" >> "$logFile"
         echo "watching video 1 in Iteration $i"
-        open -a "seamonkey" "$URL_2"
+        open -a "Seamonkey" "$URL_2"
 
         if [ $? -eq 0 ]; then
             echo "1 view for video_1 in Iteration $i created successfully" >> "$logFile"
@@ -208,7 +208,7 @@ function loop2 {
 
         sleep 242
 
-        pkill -f "seamonkey"
+        pkill -f "Seamonkey"
         sleep 10
 
         pkill -f "Google Chrome"
@@ -240,7 +240,7 @@ function loop3 {
     for ((i = 1; i <= $iterations; i++)); do
         echo "Iteration $i - Date and Time: $(date) $(date +%T)" >> "$logFile"
         echo "watching video 1 in Iteration $i"
-        open -a "seamonkey" "$URL_3"
+        open -a "Seamonkey" "$URL_3"
 
         if [ $? -eq 0 ]; then
             echo "1 view for video_1 in Iteration $i created successfully" >> "$logFile"
@@ -316,7 +316,7 @@ function loop3 {
 
         sleep 242
 
-        pkill -f "seamonkey"
+        pkill -f "Seamonkey"
         sleep 10
 
         pkill -f "Google Chrome"
@@ -348,7 +348,7 @@ function loop4 {
     for ((i = 1; i <= $iterations; i++)); do
         echo "Iteration $i - Date and Time: $(date) $(date +%T)" >> "$logFile"
         echo "watching video 1 in Iteration $i"
-        open -a "seamonkey" "$URL_4"
+        open -a "Seamonkey" "$URL_4"
 
         if [ $? -eq 0 ]; then
             echo "1 view for video_1 in Iteration $i created successfully" >> "$logFile"
@@ -424,7 +424,7 @@ function loop4 {
 
         sleep 242
 
-        pkill -f "seamonkey"
+        pkill -f "Seamonkey"
         sleep 10
 
         pkill -f "Google Chrome"
@@ -456,7 +456,7 @@ function loop5 {
     for ((i = 1; i <= $iterations; i++)); do
         echo "Iteration $i - Date and Time: $(date) $(date +%T)" >> "$logFile"
         echo "watching video 1 in Iteration $i"
-        open -a "seamonkey" "$URL_5"
+        open -a "Seamonkey" "$URL_5"
 
         if [ $? -eq 0 ]; then
             echo "1 view for video_1 in Iteration $i created successfully" >> "$logFile"
@@ -532,7 +532,7 @@ function loop5 {
 
         sleep 242
 
-        pkill -f "seamonkey"
+        pkill -f "Seamonkey"
         sleep 10
 
         pkill -f "Google Chrome"
