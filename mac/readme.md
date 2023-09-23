@@ -117,3 +117,4 @@ Run the script to open the browsers
 `./experiment.sh`
 
 After Executing the Script, Monitor the console and finally at the end of iteration script will generate Skylogfile.txt log file.
+Proceed to Tracker to update your views as per Skylogfile.txt
