@@ -138,8 +138,6 @@ Run the respective command to open the browsers as per Assignment:
 4. Jeevan - `./set_4_Jeevan.sh`
 5. Vinod - `./set_5_Vinod.sh`
 
-After Executing the Script,
-
 ## Note: Please select loop choice as per assignment (its loop 1 for everyone):
 1. Mohith - loop 1
 2. Tejesh - loop 1
@@ -147,5 +145,6 @@ After Executing the Script,
 4. Jeevan - loop 1
 5. Vinod - loop 1
 
+After Executing the Script,
 Monitor the console and finally at the end of iteration script will generate Skylogfile.txt log file.
 Proceed to Tracker to update your views as per Skylogfile.txt
