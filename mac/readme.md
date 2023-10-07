@@ -114,16 +114,18 @@ Download the script as per below assignments:
    ### After downloading the file, Make the script executable, execute the below command
    `chmod +x set_1_Mohith.sh`
 2. set_2_Tejesh.sh - Tejesh.
-   After downloading the file, Make the script executable, execute the below command
+   
+   ### After downloading the file, Make the script executable, execute the below command
    `chmod +x set_2_Tejesh.sh`
 3. set_3_Ramana.sh - Ramana.
-   After downloading the file, Make the script executable, execute the below command
+   
+   ### After downloading the file, Make the script executable, execute the below command
    `chmod +x set_3_Ramana.sh`
 4. set_4_Jeevan.sh - Jeevan.
-   After downloading the file, Make the script executable, execute the below command
+   ### After downloading the file, Make the script executable, execute the below command
    `chmod +x set_4_Jeevan.sh`
 5. set_5_Vinod.sh - Vinod.
-   After downloading the file, Make the script executable, execute the below command
+   ### After downloading the file, Make the script executable, execute the below command
    `chmod +x set_5_Vinod.sh`
 
 
