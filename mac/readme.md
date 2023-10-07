@@ -110,7 +110,8 @@ Additionally, YouTube's autoplay settings may also be influenced by the type of 
 # Step 4
 Download the script as per below assignments:
 1. set_1_Mohith.sh - Mohith.
-   After downloading the file, Make the script executable, execute the below command
+   
+   ## After downloading the file, Make the script executable, execute the below command
    `chmod +x set_1_Mohith.sh`
 2. set_2_Tejesh.sh - Tejesh.
    After downloading the file, Make the script executable, execute the below command
