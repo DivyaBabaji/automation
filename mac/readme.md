@@ -108,22 +108,41 @@ Please be aware that browser settings and YouTube's autoplay policies may change
 Additionally, YouTube's autoplay settings may also be influenced by the type of content you're watching and your viewing history, as YouTube's recommendation algorithm plays a role in determining which videos autoplay.
 
 # Step 4
-Make the script executable, execute the below command
-`chmod +x experiment.sh`
+Download the script as per below assignments:
+1. set_1_Mohith.sh - Mohith.
+   After downloading the file, Make the script executable, execute the below command
+   `chmod +x set_1_Mohith.sh`
+2. set_2_Tejesh.sh - Tejesh.
+   After downloading the file, Make the script executable, execute the below command
+   `chmod +x set_2_Tejesh.sh`
+3. set_3_Ramana.sh - Ramana.
+   After downloading the file, Make the script executable, execute the below command
+   `chmod +x set_3_Ramana.sh`
+4. set_4_Jeevan.sh - Jeevan.
+   After downloading the file, Make the script executable, execute the below command
+   `chmod +x set_4_Jeevan.sh`
+5. set_5_Vinod.sh - Vinod.
+   After downloading the file, Make the script executable, execute the below command
+   `chmod +x set_5_Vinod.sh`
+
 
 # Step 5
 Do this step only after successfully installing browsers.
-Run the script to open the browsers
-`./experiment.sh`
+Run the respective command to open the browsers as per Assignment:
+1. Mohith - `./set_1_Mohith.sh`
+2. Tejesh - `./set_2_Tejesh.sh`
+3. Ramana - `./set_3_Ramana.sh`
+4. Jeevan - `./set_4_Jeevan.sh`
+5. Vinod - `./set_5_Vinod.sh`
 
 After Executing the Script,
 
-## Note: Please select loop choice as per assignment:
+## Note: Please select loop choice as per assignment (its loop 1 for everyone):
 1. Mohith - loop 1
-2. Tejesh - loop 2
-3. Ramana - loop 3
-4. Jeevan - loop 4
-5. Vinod - loop 5
+2. Tejesh - loop 1
+3. Ramana - loop 1
+4. Jeevan - loop 1
+5. Vinod - loop 1
 
 Monitor the console and finally at the end of iteration script will generate Skylogfile.txt log file.
 Proceed to Tracker to update your views as per Skylogfile.txt
