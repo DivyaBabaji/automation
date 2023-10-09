@@ -147,4 +147,5 @@ Run the respective command to open the browsers as per Assignment:
 
 After Executing the Script,
 Monitor the console and finally at the end of iteration script will generate Skylogfile.txt log file.
-Proceed to Tracker to update your views as per Skylogfile.txt
+Proceed to https://docs.google.com/spreadsheets/d/1yM7TrAzccLT0NaD3qrnN-ITPsgzOZU_mv4Py-YJQuII/edit#gid=1377602178 Tracker to update your views as per Skylogfile.txt
+
