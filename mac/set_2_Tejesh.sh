@@ -100,15 +100,15 @@ function loop1() {
 
         sleep 134
 
-        pkill "Google Chrome"
+        pkill -f "Google Chrome"
         sleep 8
-        pkill "Microsoft Edge"
+        pkill -f "Microsoft Edge"
         sleep 1
-        pkill "Firefox"
+        pkill -f "Firefox"
         sleep 4
-        pkill "Seamonkey"
+        pkill -f "Seamonkey"
         sleep 3
-        pkill "Safari"
+        pkill -f "Safari"
 
         echo "watching video 83 in Iteration $i"
         open -a "Seamonkey" "$URL_83"
@@ -170,15 +170,15 @@ function loop1() {
 
         sleep 135
 
-        pkill "Google Chrome"
+        pkill -f "Google Chrome"
         sleep 8
-        pkill "Microsoft Edge"
+        pkill -f "Microsoft Edge"
         sleep 1
-        pkill "Firefox"
+        pkill -f "Firefox"
         sleep 4
-        pkill "Seamonkey"
+        pkill -f "Seamonkey"
         sleep 3
-        pkill "Safari"
+        pkill -f "Safari"
 
         echo "watching video 88 in Iteration $i"
         open -a "Safari" "$URL_88"
@@ -230,15 +230,15 @@ function loop1() {
 
         sleep 129
 
-        pkill "Google Chrome"
+        pkill -f "Google Chrome"
         sleep 8
-        pkill "Microsoft Edge"
+        pkill -f "Microsoft Edge"
         sleep 1
-        pkill "Firefox"
+        pkill -f "Firefox"
         sleep 4
-        pkill "Seamonkey"
+        pkill -f "Seamonkey"
         sleep 3
-        pkill "Safari"
+        pkill -f "Safari"
 
         echo "watching video 92 in Iteration $i"
         open -a "Safari" "$URL_92"
@@ -290,15 +290,15 @@ function loop1() {
 
         sleep 126
 
-        pkill "Google Chrome"
+        pkill -f "Google Chrome"
         sleep 8
-        pkill "Microsoft Edge"
+        pkill -f "Microsoft Edge"
         sleep 1
-        pkill "Firefox"
+        pkill -f "Firefox"
         sleep 4
-        pkill "Seamonkey"
+        pkill -f "Seamonkey"
         sleep 3
-        pkill "Safari"
+        pkill -f "Safari"
 
         echo "watching video 95 in Iteration $i"
         open -a "Safari" "$URL_95"
@@ -367,15 +367,15 @@ function loop1() {
 
         sleep 55
 
-        pkill "Google Chrome"
+        pkill -f "Google Chrome"
         sleep 8
-        pkill "Microsoft Edge"
+        pkill -f "Microsoft Edge"
         sleep 1
-        pkill "Firefox"
+        pkill -f "Firefox"
         sleep 4
-        pkill "Seamonkey"
+        pkill -f "Seamonkey"
         sleep 3
-        pkill "Safari"
+        pkill -f "Safari"
 
         echo "watching video 100 in Iteration $i"
         open -a "Safari" "$URL_100"
@@ -435,15 +435,15 @@ function loop1() {
 
         sleep 100
 
-        pkill "Google Chrome"
+        pkill -f "Google Chrome"
         sleep 8
-        pkill "Microsoft Edge"
+        pkill -f "Microsoft Edge"
         sleep 1
-        pkill "Firefox"
+        pkill -f "Firefox"
         sleep 4
-        pkill "Seamonkey"
+        pkill -f "Seamonkey"
         sleep 3
-        pkill "Safari"
+        pkill -f "Safari"
 
         echo "watching video 104 in Iteration $i"
         open -a "Safari" "$URL_104"
@@ -505,15 +505,15 @@ function loop1() {
 
         sleep 300
 
-        pkill "Google Chrome"
+        pkill -f "Google Chrome"
         sleep 8
-        pkill "Microsoft Edge"
+        pkill -f "Microsoft Edge"
         sleep 1
-        pkill "Firefox"
+        pkill -f "Firefox"
         sleep 4
-        pkill "Seamonkey"
+        pkill -f "Seamonkey"
         sleep 3
-        pkill "Safari"
+        pkill -f "Safari"
 
         echo "SET-2 Total Attempted views - 30 please count the FAILURE :s and subtract from 'views attempted' while updating the status in tracker" >> "$logFile"
     done
