@@ -537,7 +537,7 @@ while true; do
             loop1
             ;;
         *)
-            echo "Invalid choice. Please enter 0, 1, 2, 3, 4, 5"
+            echo "Invalid choice. Please enter 0, 1"
             #, 6, 7, 8, 9 or 10.
             ;;
     esac
