@@ -42,47 +42,7 @@ SEO_3="https://www.youtube.com/results?search_query=sushumna+kriya+yoga+in+mumba
 SEO_4="https://www.youtube.com/results?search_query=Aathmanandamayi"
 SEO_5="https://www.youtube.com/results?search_query=mahavatar+babaji+bhogar+aathmanadamayi"
 
-while true; do
-    clear
-    echo "Choose a loop to run (1-10, 0 to exit):"
-    echo "1. Loop 1"
-    echo "2. Loop 2"
-    echo "3. Loop 3"
-    echo "4. Loop 4"
-    echo "5. Loop 5"
-    echo "6. Loop 6"
-    echo "7. Loop 7"
-    echo "8. Loop 8"
-    echo "9. Loop 9"
-    echo "10. Loop 10"
-    read -p "Enter your choice: " choice
-
-    if [ "$choice" -eq 0 ]; then
-        exit 0
-    fi
-
-    valid=0
-    for i in {1..10}; do
-        if [ "$choice" -eq "$i" ]; then
-            valid=1
-            runLoop "$choice"
-            break
-        fi
-    done
-
-    if [ "$valid" -eq 0 ]; then
-        echo "Invalid choice. Please enter a number between 1 and 10."
-        read -p "Press Enter to continue..."
-    fi
-done
-
-runLoop() {
-    clear
-    echo "Running Loop $1..."
-    loop$1
-}
-
-loop1() {
+function loop1() {
     # Loop 1 commands here...
     iterations=1
     logFile="Skylogfile.txt"
@@ -91,7 +51,7 @@ loop1() {
     for ((i = 1; i <= iterations; i++)); do
         echo "Iteration $i - Date and Time: $(date) $(date +%T)" >> "$logFile"
         echo "watching video 50 in Iteration $i"
-        open -a "Firefox" "URL_50"
+        open -a "Firefox" "$URL_50"
         if [ $? -eq 0 ]; then
             echo "YOU ARE RUNNING SET-1 VIDEOS        1 view for video_50 in Iteration $i created successfully" >> "$logFile"
         else
@@ -101,7 +61,7 @@ loop1() {
         sleep 20
 
         echo "####PATTERN CHANGING#### in Iteration $i"
-        open -a "Google Chrome" "TEMP_1"
+        open -a "Google Chrome" "$TEMP_1"
         if [ $? -eq 0 ]; then
             echo "PATTERN CHANGED in Iteration $i created successfully" >> "$logFile"
         else
@@ -111,7 +71,7 @@ loop1() {
         sleep 8
 
         echo "####Attempting SEO#### in Iteration $i"
-        open -a "Google Chrome" "SEO_1"
+        open -a "Google Chrome" "$SEO_1"
         if [ $? -eq 0 ]; then
             echo "SEO in Iteration $i created successfully" >> "$logFile"
         else
@@ -121,7 +81,7 @@ loop1() {
         sleep 8
 
         echo "watching video 51 in Iteration $i"
-        open -a "Google Chrome" "URL_51"
+        open -a "Google Chrome" "$URL_51"
         if [ $? -eq 0 ]; then
             echo "1 view for video_51 in Iteration $i created successfully" >> "$logFile"
         else
@@ -131,7 +91,7 @@ loop1() {
         sleep 12
 
         echo "watching video 52 in Iteration $i"
-        open -a "Microsoft Edge" "URL_52"
+        open -a "Microsoft Edge" "$URL_52"
         if [ $? -eq 0 ]; then
             echo "1 view for video_52 in Iteration $i created successfully" >> "$logFile"
         else
@@ -151,7 +111,7 @@ loop1() {
         pkill "Safari"
 
         echo "watching video 53 in Iteration $i"
-        open -a "Seamonkey" "URL_53"
+        open -a "Seamonkey" "$URL_53"
         if [ $? -eq 0 ]; then
             echo "1 view for video_53 in Iteration $i created successfully" >> "$logFile"
         else
@@ -161,7 +121,7 @@ loop1() {
         sleep 16
 
         echo "watching video 54 in Iteration $i"
-        open -a "Safari" "URL_54"
+        open -a "Safari" "$URL_54"
         if [ $? -eq 0 ]; then
             echo "1 view for video_54 in Iteration $i created successfully" >> "$logFile"
         else
@@ -171,7 +131,7 @@ loop1() {
         sleep 16
 
         echo "watching video 55 in Iteration $i"
-        open -a "Safari" "URL_55"
+        open -a "Safari" "$URL_55"
         if [ $? -eq 0 ]; then
             echo "1 view for video_55 in Iteration $i created successfully" >> "$logFile"
         else
@@ -181,7 +141,7 @@ loop1() {
         sleep 16
 
         echo "watching video 56 in Iteration $i"
-        open -a "Safari" "URL_56"
+        open -a "Safari" "$URL_56"
         if [ $? -eq 0 ]; then
             echo "1 view for video_56 in Iteration $i created successfully" >> "$logFile"
         else
@@ -191,7 +151,7 @@ loop1() {
         sleep 16
 
         echo "watching video 57 in Iteration $i"
-        open -a "Safari" "URL_57"
+        open -a "Safari" "$URL_57"
         if [ $? -eq 0 ]; then
             echo "1 view for video_57 in Iteration $i created successfully" >> "$logFile"
         else
@@ -201,7 +161,7 @@ loop1() {
         sleep 10
 
         echo "####PATTERN CHANGING#### in Iteration $i"
-        open -a "Google Chrome" "TEMP_2"
+        open -a "Google Chrome" "$TEMP_2"
         if [ $? -eq 0 ]; then
             echo "PATTERN CHANGED in Iteration $i created successfully" >> "$logFile"
         else
@@ -221,7 +181,7 @@ loop1() {
         pkill "Safari"
 
         echo "watching video 58 in Iteration $i"
-        open -a "Safari" "URL_58"
+        open -a "Safari" "$URL_58"
         if [ $? -eq 0 ]; then
             echo "1 view for video_58 in Iteration $i created successfully" >> "$logFile"
         else
@@ -231,7 +191,7 @@ loop1() {
         sleep 20
 
         echo "####Attempting SEO#### in Iteration $i"
-        open -a "Google Chrome" "SEO_2"
+        open -a "Google Chrome" "$SEO_2"
         if [ $? -eq 0 ]; then
             echo "SEO in Iteration $i created successfully" >> "$logFile"
         else
@@ -241,7 +201,7 @@ loop1() {
         sleep 10
 
         echo "watching video 59 in Iteration $i"
-        open -a "Safari" "URL_59"
+        open -a "Safari" "$URL_59"
         if [ $? -eq 0 ]; then
             echo "1 view for video_59 in Iteration $i created successfully" >> "$logFile"
         else
@@ -251,7 +211,7 @@ loop1() {
         sleep 8
 
         echo "watching video 60 in Iteration $i"
-        open -a "Safari" "URL_60"
+        open -a "Safari" "$URL_60"
         if [ $? -eq 0 ]; then
             echo "1 view for video_60 in Iteration $i created successfully" >> "$logFile"
         else
@@ -261,7 +221,7 @@ loop1() {
         sleep 14
 
         echo "watching video 61 in Iteration $i"
-        open -a "Safari" "URL_61"
+        open -a "Safari" "$URL_61"
         if [ $? -eq 0 ]; then
             echo "1 view for video_61 in Iteration $i created successfully" >> "$logFile"
         else
@@ -281,7 +241,7 @@ loop1() {
         pkill "Safari"
 
         echo "watching video 62 in Iteration $i"
-        open -a "Safari" "URL_62"
+        open -a "Safari" "$URL_62"
         if [ $? -eq 0 ]; then
             echo "1 view for video_62 in Iteration $i created successfully" >> "$logFile"
         else
@@ -291,7 +251,7 @@ loop1() {
         sleep 10
 
         echo "####Attempting SEO#### in Iteration $i"
-        open -a "Google Chrome" "SEO_3"
+        open -a "Google Chrome" "$SEO_3"
         if [ $? -eq 0 ]; then
             echo "SEO in Iteration $i created successfully" >> "$logFile"
         else
@@ -301,7 +261,7 @@ loop1() {
         sleep 8
 
         echo "watching video 63 in Iteration $i"
-        open -a "Safari" "URL_63"
+        open -a "Safari" "$URL_63"
         if [ $? -eq 0 ]; then
             echo "1 view for video_63 in Iteration $i created successfully" >> "$logFile"
         else
@@ -311,7 +271,7 @@ loop1() {
         sleep 55
 
         echo "####PATTERN CHANGING#### in Iteration $i"
-        open -a "Google Chrome" "TEMP_3"
+        open -a "Google Chrome" "$TEMP_3"
         if [ $? -eq 0 ]; then
             echo "PATTERN CHANGED in Iteration $i created successfully" >> "$logFile"
         else
@@ -321,7 +281,7 @@ loop1() {
         sleep 10
 
         echo "watching video 64 in Iteration $i"
-        open -a "Safari" "URL_64"
+        open -a "Safari" "$URL_64"
         if [ $? -eq 0 ]; then
             echo "1 view for video_64 in Iteration $i created successfully" >> "$logFile"
         else
@@ -341,7 +301,7 @@ loop1() {
         pkill "Safari"
 
         echo "watching video 65 in Iteration $i"
-        open -a "Safari" "URL_65"
+        open -a "Safari" "$URL_65"
         if [ $? -eq 0 ]; then
             echo "1 view for video_65 in Iteration $i created successfully" >> "$logFile"
         else
@@ -351,7 +311,7 @@ loop1() {
         sleep 100
 
         echo "watching video 66 in Iteration $i"
-        open -a "Safari" "URL_66"
+        open -a "Safari" "$URL_66"
         if [ $? -eq 0 ]; then
             echo "1 view for video_66 in Iteration $i created successfully" >> "$logFile"
         else
@@ -361,7 +321,7 @@ loop1() {
         sleep 55
 
         echo "####PATTERN CHANGING#### in Iteration $i"
-        open -a "Google Chrome" "TEMP_4"
+        open -a "Google Chrome" "$TEMP_4"
         if [ $? -eq 0 ]; then
             echo "PATTERN CHANGED in Iteration $i created successfully" >> "$logFile"
         else
@@ -371,7 +331,7 @@ loop1() {
         sleep 76
 
         echo "watching video 67 in Iteration $i"
-        open -a "Safari" "URL_67"
+        open -a "Safari" "$URL_67"
         if [ $? -eq 0 ]; then
             echo "1 view for video_67 in Iteration $i created successfully" >> "$logFile"
         else
@@ -380,7 +340,7 @@ loop1() {
 
 
         echo "####Attempting SEO#### in Iteration $i"
-        open -a "Google Chrome" "SEO_4"
+        open -a "Google Chrome" "$SEO_4"
         if [ $? -eq 0 ]; then
             echo "SEO in Iteration $i created successfully" >> "$logFile"
         else
@@ -390,7 +350,7 @@ loop1() {
         sleep 36
 
         echo "watching video 68 in Iteration $i"
-        open -a "Safari" "URL_68"
+        open -a "Safari" "$URL_68"
         if [ $? -eq 0 ]; then
             echo "1 view for video_68 in Iteration $i created successfully" >> "$logFile"
         else
@@ -398,7 +358,7 @@ loop1() {
         fi
 
         echo "watching video 69 in Iteration $i"
-        open -a "Safari" "URL_69"
+        open -a "Safari" "$URL_69"
         if [ $? -eq 0 ]; then
             echo "1 view for video_69 in Iteration $i created successfully" >> "$logFile"
         else
@@ -418,7 +378,7 @@ loop1() {
         pkill "Safari"
 
         echo "watching video 70 in Iteration $i"
-        open -a "Safari" "URL_70"
+        open -a "Safari" "$URL_70"
         if [ $? -eq 0 ]; then
             echo "1 view for video_70 in Iteration $i created successfully" >> "$logFile"
         else
@@ -428,7 +388,7 @@ loop1() {
         sleep 22
 
         echo "watching video 71 in Iteration $i"
-        open -a "Safari" "URL_71"
+        open -a "Safari" "$URL_71"
         if [ $? -eq 0 ]; then
             echo "1 view for video_71 in Iteration $i created successfully" >> "$logFile"
         else
@@ -438,7 +398,7 @@ loop1() {
         sleep 19
 
         echo "####Attempting SEO#### in Iteration $i"
-        open -a "Google Chrome" "SEO_5"
+        open -a "Google Chrome" "$SEO_5"
         if [ $? -eq 0 ]; then
             echo "SEO in Iteration $i created successfully" >> "$logFile"
         else
@@ -446,7 +406,7 @@ loop1() {
         fi
 
         echo "watching video 72 in Iteration $i"
-        open -a "Safari" "URL_72"
+        open -a "Safari" "$URL_72"
         if [ $? -eq 0 ]; then
             echo "1 view for video_72 in Iteration $i created successfully" >> "$logFile"
         else
@@ -456,7 +416,7 @@ loop1() {
         sleep 21
 
         echo "####PATTERN CHANGING#### in Iteration $i"
-        open -a "Google Chrome" "TEMP_5"
+        open -a "Google Chrome" "$TEMP_5"
         if [ $? -eq 0 ]; then
             echo "PATTERN CHANGED in Iteration $i created successfully" >> "$logFile"
         else
@@ -466,7 +426,7 @@ loop1() {
         sleep 19
 
         echo "watching video 73 in Iteration $i"
-        open -a "Safari" "URL_73"
+        open -a "Safari" "$URL_73"
         if [ $? -eq 0 ]; then
             echo "1 view for video_73 in Iteration $i created successfully" >> "$logFile"
         else
@@ -486,7 +446,7 @@ loop1() {
         pkill "Safari"
 
         echo "watching video 74 in Iteration $i"
-        open -a "Safari" "URL_74"
+        open -a "Safari" "$URL_74"
         if [ $? -eq 0 ]; then
             echo "1 view for video_74 in Iteration $i created successfully" >> "$logFile"
         else
@@ -496,7 +456,7 @@ loop1() {
         sleep 10
 
         echo "watching video 75 in Iteration $i"
-        open -a "Safari" "URL_75"
+        open -a "Safari" "$URL_75"
         if [ $? -eq 0 ]; then
             echo "1 view for video_75 in Iteration $i created successfully" >> "$logFile"
         else
@@ -506,7 +466,7 @@ loop1() {
         sleep 10
 
         echo "watching video 76 in Iteration $i"
-        open -a "Safari" "URL_76"
+        open -a "Safari" "$URL_76"
         if [ $? -eq 0 ]; then
             echo "1 view for video_76 in Iteration $i created successfully" >> "$logFile"
         else
@@ -516,7 +476,7 @@ loop1() {
         sleep 10
 
         echo "watching video 77 in Iteration $i"
-        open -a "Safari" "URL_77"
+        open -a "Safari" "$URL_77"
         if [ $? -eq 0 ]; then
             echo "1 view for video_77 in Iteration $i created successfully" >> "$logFile"
         else
@@ -526,7 +486,7 @@ loop1() {
         sleep 10
 
         echo "watching video 78 in Iteration $i"
-        open -a "Safari" "URL_78"
+        open -a "Safari" "$URL_78"
         if [ $? -eq 0 ]; then
             echo "1 view for video_78 in Iteration $i created successfully" >> "$logFile"
         else
@@ -536,7 +496,7 @@ loop1() {
         sleep 10
 
         echo "watching video 79 in Iteration $i"
-        open -a "Safari" "URL_79"
+        open -a "Safari" "$URL_79"
         if [ $? -eq 0 ]; then
             echo "1 view for video_79 in Iteration $i created successfully" >> "$logFile"
         else
@@ -561,3 +521,26 @@ loop1() {
     echo "All iterations completed. Check \"$logFile\" for details."
     read -p "Press Enter to continue..."
 }
+
+while true; do
+    clear
+    echo "Choose a loop to run (1-10, 0 to exit):"
+    echo "1. Loop 1"
+    read -p "Enter your choice: " choice
+
+    case $choice in
+        0)
+            echo "Exiting..."
+            exit 0
+            ;;
+        1)
+            loop1
+            ;;
+        *)
+            echo "Invalid choice. Please enter 0, 1, 2, 3, 4, 5"
+            #, 6, 7, 8, 9 or 10.
+            ;;
+    esac
+
+    read -p "Press Enter to continue..."
+done
